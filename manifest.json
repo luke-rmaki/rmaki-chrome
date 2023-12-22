@@ -5,20 +5,19 @@
   "description": "Dark theme for Chrome",
   "theme": {
     "colors": {
-      "frame": [30, 36, 48],
-      "frame_inactive": [30, 36, 48],
-      "toolbar": [30, 36, 48],
-      "tab_text": [200, 250, 253],
-      "tab_background_text": [194, 202, 220],
-      "background_tab": [12, 16, 24, 1],
-      "background_tab_inactive": [12, 16, 24, 1],
+      "tab_text": [54, 254, 255],
+      "tab_background_text": [196, 252, 252],
+      "background_tab": [44, 37, 55],
+      "background_tab_inactive": [44, 37, 55],
+      "bookmark_text": [196, 252, 252],
+      "frame": [44, 37, 55],
+      "frame_inactive": [29, 23, 39],
+      "toolbar": [55, 48, 66],
       "omnibox_background": [12, 16, 24],
       "omnibox_text": [194, 202, 220],
-      "bookmark_text": [200, 250, 253],
-      "toolbar_button_icon": [122, 164, 255]
-    },
-    "tints": {
-      "buttons": [0.61, 1, 0.74]
+      "toolbar_button_icon": [255, 183, 97],
+      "ntp_background": [29, 23, 39],
+      "button_background": [29, 23, 39]
     }
   }
 }
