@@ -1,11 +1,11 @@
 {
   "name": "chrome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bump": "npm version patch",
-    "build": "vite-node main.ts && pnpm run bump"
+    "bump": "npm version patch --force",
+    "build": "pnpm run bump && vite-node main.ts"
   },
   "keywords": [],
   "author": "",
