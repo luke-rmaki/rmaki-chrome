@@ -1,0 +1,19 @@
+{
+  "name": "chrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bump": "npm version patch",
+    "build": "vite-node main.ts && pnpm run bump"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite-node": "^1.1.0"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
